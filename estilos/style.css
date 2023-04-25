@@ -39,13 +39,23 @@ iframe#tela {
     left: 22px;
     width: 266px;
     height: 470px;
-    
-
 }
 
-/* img#facebook {
-    border-radius: 500px;
-    position: absolute;
-    right: 1%;
-    top: 1%;
-} */
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.522);
+    box-sizing: border-box;
+   }
+
+   section#redes-sociais {
+    text-align: right;
+   }
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate( -5px, -0px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.52);
+    transition: 0.5s, border .5s;
+}
